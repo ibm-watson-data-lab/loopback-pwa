@@ -5,6 +5,9 @@ var cacheName = 'v1';
 var filesToCache = [
   './',
   './index.html',
+  './manifest.json',
+  './icons/icon-192x192.png',
+  './icons/icon-512x512.png',
 ];
 
 // Pre-caches the files when the Service Worker is installed
