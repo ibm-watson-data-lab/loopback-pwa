@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <meta name="description" content="A Progressive Web App served from LoopBack.">
     <title>LoopBack Progressive Web App</title>
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(function(reg) {
+          console.log('Service Worker registration succeeded.');
+        }).catch(function(error) {
+          console.log('Service Worker registration failed with ' + error);
+        });
+      }
+    </script>
   </head>
   <body>
     <h1>LoopBack Progressive Web App</h1>
