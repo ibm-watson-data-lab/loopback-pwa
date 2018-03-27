@@ -1,5 +1,8 @@
 # LoopBack Progressive Web App
 
+![LoopBack logo](logo-loopback.png "LoopBack")
+![Progressive Web Apps logo](logo-pwa.png "Progressive Web Apps")
+
 A Progressive Web App served from [LoopBack](http://loopback.io) that:
 
 - ⚙️ Uses a [Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker) to enable the app to work whether or not the end user's device has an internet connection (this is what is referred to as an [Offline First](http://offlinefirst.org/) approach)
