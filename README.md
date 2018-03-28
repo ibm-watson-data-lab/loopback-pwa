@@ -1,6 +1,7 @@
 # LoopBack Progressive Web App
 
 ![LoopBack logo](logo-loopback.png "LoopBack")
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Progressive Web Apps logo](logo-pwa.png "Progressive Web Apps")
 
 A Progressive Web App served from [LoopBack](http://loopback.io) that:
